@@ -23,7 +23,7 @@ gem 'puma', '~> 5.0'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+gem 'rack-cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -43,3 +43,7 @@ gem 'net-smtp'
 # ついでに以下の2つも追加しておく方が良さそう
 gem 'net-imap'
 gem 'net-pop'
+
+# デバッグ関係
+gem 'pry-rails'
+gem 'pry-nav'
