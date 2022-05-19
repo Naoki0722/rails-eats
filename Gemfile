@@ -47,3 +47,10 @@ gem 'net-pop'
 # デバッグ関係
 gem 'pry-rails'
 gem 'pry-nav'
+
+
+# graphQLインストール
+gem 'graphql'
+gem 'graphiql-rails'
+
+gem 'sass-rails'
